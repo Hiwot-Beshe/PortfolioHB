@@ -10,10 +10,7 @@ import {
 	ScrollView,
 	Platform
 } from "react-native";
-import {
-AntDesign,
-MaterialIcons,
-} from "@expo/vector-icons";
+
 function Contact() {
 
 	const [name, setName] = useState("");
@@ -34,11 +31,7 @@ function Contact() {
 						<Text style={styles.titleText}>let chat!</Text>
 						<Text>{`
 							`}</Text>
-						<View style={styles.email}>
-							<MaterialIcons name="email" size={27} color="#C99663" />
-							<Text>{`             `}</Text>
-							<AntDesign name="linkedin-square" size={24} color="#C99663" />
-						</View>
+					
 					</View>
 					<View style={styles.inputWrap}>
 						<View style={styles.input}>

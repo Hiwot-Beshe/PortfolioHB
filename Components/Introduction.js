@@ -11,7 +11,7 @@ import {
 import {
 	FontAwesome,
 	Foundation ,
-	MaterialIcons,
+	AntDesign,
 } from "@expo/vector-icons";
 import logo from "../Components/Image/LogoNewWhite.png";
 
@@ -47,7 +47,7 @@ import logo from "../Components/Image/LogoNewWhite.png";
 						}}
 					>
 						<Text style={styles.timeText}>
-							<MaterialIcons name="email" size={14} color="#2F78C2" />
+							<AntDesign name="mail" size={24} color="#2F78C2" />
 							beshehiwot@gmail.com
 						</Text>
 					</TouchableOpacity>

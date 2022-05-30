@@ -13,7 +13,7 @@ import love from "../Components/Image/😍.png";
 import emoji from "../Components/Image/😭.png";
 import {
 	FontAwesome,
-	MaterialIcons,
+AntDesign
 	
 } from "@expo/vector-icons";
 
@@ -60,7 +60,8 @@ and user needs.”`}
 							Linking.openURL("mailto: beshehiwot@gmail.com");
 						}}
 					>
-						<MaterialIcons name="email" size={26} color="#2F78C2" />
+						<AntDesign name="mail" size={24} color="#2F78C2" />
+					
 					</TouchableOpacity>
 					<TouchableOpacity
 						onPress={() => {
