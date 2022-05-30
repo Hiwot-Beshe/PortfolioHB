@@ -2,7 +2,6 @@ import { StyleSheet,Text, Linking,View, useWindowDimensions, Platform, Touchable
 import {  Image,Button, Icon } from "react-native-elements";
 import Haunted from "../Components/Image/image/huanted.png";
 import Decider from "../Components/Image/image/decidr-1.png";
-import Ecard from "../Components/Image/image/ecard-2.png";
 import movie from "../Components/Image/image/trivia-and-chill.png";
 
 export default function Work() {
@@ -78,38 +77,7 @@ export default function Work() {
 					/>
 				</View>
 			</View>
-			<View
-				style={[
-					{
-						flexDirection:
-							Platform.OS == "web"
-								? width > widthBreakpoint
-									? "row"
-									: "column"
-								: "column",
-					},
-					styles.container,
-				]}
-			>
-				<Image source={Ecard} resizeMode="cover" style={styles.Image} />
-				<View style={styles.textWrap}>
-					<Text style={styles.pageText}>E-CARD</Text>
-					<Text>Role: Front-end development (individual project)</Text>
-					<Text style={styles.detailText}>
-						An App that generates customized greeting cards for the holiday
-						season using React Native. The cards can be customized by users and
-						shared with their friends and family. The app works on both mobile
-						devices and desktops.
-					</Text>
-					<Button
-						onPress={() => {
-							Linking.openURL("http://Hiwot-Beshe.github.io/ecard/");
-						}}
-						style={styles.btn}
-						title="VIEW NOW"
-					/>
-				</View>
-			</View>
+			
 			<View
 				style={[
 					{
