@@ -1,7 +1,7 @@
 {
 	"name": "portfoliohb",
 	"version": "1.0.0",
-	"homepage": "http://Hiwot-Beshe.github.io/portfiohb/",
+	"homepage": "http://Hiwot-Beshe.github.io/PortfolioHB/",
 	"main": "node_modules/expo/AppEntry.js",
 	"scripts": {
 		"start": "expo start",
