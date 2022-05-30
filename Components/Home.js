@@ -17,6 +17,7 @@ import {
 	Feather,
 	EvilIcons,
 	MaterialIcons,
+	FontAwesome5,
 } from "@expo/vector-icons";
 
 export default function Home() {
@@ -24,7 +25,19 @@ export default function Home() {
 	const widthBreakpoint = 750;
 	
 	return (
-		<View style={[{ flexDirection: Platform.OS == "web" ? (width > widthBreakpoint ? "row": "column") : "column-reverse" }, styles.container ]}>
+		<View
+			style={[
+				{
+					flexDirection:
+						Platform.OS == "web"
+							? width > widthBreakpoint
+								? "row"
+								: "column"
+							: "column-reverse",
+				},
+				styles.container,
+			]}
+		>
 			<View style={styles.textWrap}>
 				<Text style={styles.pageText}>
 					<Text style={styles.helloText}>Hello!</Text>
@@ -50,7 +63,7 @@ and user needs.”`}
 							Linking.openURL("mailto: beshehiwot@gmail.com");
 						}}
 					>
-						<MaterialIcons name="email" size={24} color="#2F78C2" />
+						<MaterialIcons name="email" size={26} color="#2F78C2" />
 					</TouchableOpacity>
 					<TouchableOpacity
 						onPress={() => {
@@ -58,6 +71,13 @@ and user needs.”`}
 						}}
 					>
 						<AntDesign name="linkedin-square" size={24} color="#2F78C2" />
+					</TouchableOpacity>
+					<TouchableOpacity
+						onPress={() => {
+							Linking.openURL("https://github.com/Hiwot-Beshe");
+						}}
+					>
+						<FontAwesome5 name="github" size={24} color="#2F78C2" />
 					</TouchableOpacity>
 				</View>
 			</View>
@@ -121,7 +141,7 @@ const styles = StyleSheet.create({
 	helloText: {
 		fontSize: 40,
 		fontStyle: "normal",
-		color: "#aba6a6",
+		color: "#C99663",
 		paddingRight: 10,
 		fontWeight: "600",
 	},
