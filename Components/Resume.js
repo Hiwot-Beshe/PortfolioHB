@@ -1,5 +1,7 @@
 import { StyleSheet, View, Image, useWindowDimensions } from "react-native";
-
+import Introduction from "./Introduction";
+import Education from "./Education";
+import Experiences from "./Experiences";
 
 export default function Resume() {
 
@@ -8,6 +10,9 @@ export default function Resume() {
 
 	return (
 		<View >
+			<Introduction />
+			<Education />
+			<Experiences/>
 			
 		</View>
 	);
