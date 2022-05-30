@@ -9,10 +9,7 @@ import {
 	useWindowDimensions,
 } from "react-native";
 import {
-	FontAwesome5,
-	AntDesign,
-	Feather,
-	EvilIcons,
+	FontAwesome,
 	Foundation ,
 	MaterialIcons,
 } from "@expo/vector-icons";
@@ -70,7 +67,7 @@ import logo from "../Components/Image/LogoNewWhite.png";
 						}}
 					>
 						<Text style={styles.timeText}>
-							<FontAwesome5 name="github" size={14} color="#2F78C2" />
+							<FontAwesome name="github" size={14} color="#2F78C2" />
 							Hiwot-Beshe
 						</Text>
 					</TouchableOpacity>

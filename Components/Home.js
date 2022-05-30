@@ -13,11 +13,8 @@ import love from "../Components/Image/😍.png";
 import emoji from "../Components/Image/😭.png";
 import {
 	FontAwesome,
-	AntDesign,
-	Feather,
-	EvilIcons,
 	MaterialIcons,
-	FontAwesome5,
+	
 } from "@expo/vector-icons";
 
 export default function Home() {
@@ -70,14 +67,14 @@ and user needs.”`}
 							Linking.openURL("https://www.linkedin.com/in/hiwot-beshe");
 						}}
 					>
-						<AntDesign name="linkedin-square" size={24} color="#2F78C2" />
+						<FontAwesome name="linkedin-square" size={24} color="#2F78C2" />
 					</TouchableOpacity>
 					<TouchableOpacity
 						onPress={() => {
 							Linking.openURL("https://github.com/Hiwot-Beshe");
 						}}
 					>
-						<FontAwesome5 name="github" size={24} color="#2F78C2" />
+						<FontAwesome name="github" size={24} color="#2F78C2" />
 					</TouchableOpacity>
 				</View>
 			</View>
@@ -86,9 +83,9 @@ and user needs.”`}
 				<View style={styles.socialWrap}>
 					<View style={styles.icon}>
 						<View style={styles.frontIcon}>
-							<EvilIcons name="heart" size={20} color="black" />
-							<EvilIcons name="comment" size={20} color="black" />
-							<Feather name="send" size={14} color="black" />
+							<FontAwesome name="heart" size={20} color="#999999" />
+							<FontAwesome name="comment" size={20} color="#999999" />
+							<FontAwesome name="send" size={14} color="#999999" />
 						</View>
 						<View style={styles.bookmark}>
 							<FontAwesome name="bookmark-o" size={16} color="black" />
