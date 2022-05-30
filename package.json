@@ -10,6 +10,7 @@
 		"ios": "expo start --ios",
 		"web": "expo start --web",
 		"eject": "expo eject",
+		 "build": "webpack --config prod.config.js",
 		"deploy": "gh-pages -d web-build",
 		"predeploy": "expo build:web"
 	},
