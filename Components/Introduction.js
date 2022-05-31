@@ -47,8 +47,8 @@ import logo from "../Components/Image/LogoNewWhite.png";
 						}}
 					>
 						<Text style={styles.timeText}>
-							<AntDesign name="mail" size={24} color="#2F78C2" />
-							beshehiwot@gmail.com
+							<AntDesign name="mail" size={10} color="#2F78C2" />
+							{` `} beshehiwot@gmail.com
 						</Text>
 					</TouchableOpacity>
 					<TouchableOpacity
@@ -58,7 +58,7 @@ import logo from "../Components/Image/LogoNewWhite.png";
 					>
 						<Text style={styles.timeText}>
 							<Foundation name="social-linkedin" size={16} color="#2F78C2" />
-							hiwot-beshe
+							{` `} hiwot-beshe
 						</Text>
 					</TouchableOpacity>
 					<TouchableOpacity
@@ -68,7 +68,7 @@ import logo from "../Components/Image/LogoNewWhite.png";
 					>
 						<Text style={styles.timeText}>
 							<FontAwesome name="github" size={14} color="#2F78C2" />
-							Hiwot-Beshe
+							{` `} Hiwot-Beshe
 						</Text>
 					</TouchableOpacity>
 				</View>

@@ -28,7 +28,7 @@ function Contact() {
 			<SafeAreaView>
 				<View style={styles.container}>
 					<View style={styles.title}>
-						<Text style={styles.titleText}>let chat!</Text>
+						<Text style={styles.titleText}>Let's chat!</Text>
 						<Text>{`
 							`}</Text>
 					
@@ -86,15 +86,15 @@ const styles = StyleSheet.create({
 		alignItems: "center",
 		flexDirection: "column",
 		justifyContent: "center",
-		marginLeft: Platform.OS == "web" ? "20%" : "5%",
-		marginRight: Platform.OS == "web" ? "20%" : "5%",
+		marginLeft: Platform.OS == "web" ? "20%" : "10%",
+		marginRight: Platform.OS == "web" ? "20%" : "10%",
 	},
 	title: {
-		alignSelf: "flex-start",
+		alignSelf: "center",
 		alignItems: "flex-start",
 	},
 	titleText: {
-		fontSize: Platform.OS == "web" ? 40 : 20,
+		fontSize: Platform.OS == "web" ? 40 : 30,
 		fontWeight: "600",
 		color: "#FFFFFF",
 	},
